@@ -6,7 +6,7 @@ from datetime import datetime
 
 
 class Library:
-    database = "library.json"
+    database = "data/library.json"
     data = {"books": [] , "members":[]}
 
     #load existing data to Json or create your json 
