@@ -154,6 +154,7 @@ hello = Library()
 
 while True:
     print("="*50)
+    print("Welcome to:")
     print("| Library Management System |")
     print("="*50)
     print("1. Add Book")
@@ -165,7 +166,7 @@ while True:
     print("0. Exit the portal")
     print("-"*50)
 
-    choice = input("What task you want to do ")
+    choice = input("What task you want to do:  ")
 
     if choice == "1":
         hello.add_book()
